@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: whitesmoke;
+            margin: 30px 30px 0px 30px;
+        }
+
+        h1{
+            font-size: 6em;
+            font-weight: bold;
+            font-family:monospace;
+        }
+
+        .div_main_headings{
+            font-size: 2em;
+            font-weight: bold;
+            font-family: monospace;
+        }
+
+        .div_headings{
+            font-size: 1em;
+            font-weight: bold;
+            font-family: monospace;
+        }
+        
+
+        #main{
+            width: 80%;
+            margin: 0px 50px 0px 50px;
+            justify-content: space-between;
+        }
+
+        .flex-container{
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            position: relative;
+            left: 40px;
+        }
+
+        .flex-item{
+            flex-basis: 250px;
+            margin: 0px;
+            
+        }
+
+        img{
+            width: 188px;
+            height: 250px;
+            border: 5px solid darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Photos</h1>
+
+    <div id="main">
+        <h2 class="div_main_headings">Italy</h2>
+        <ul>
+            <li><a href="https://www.google.com/maps/place/Museum+Ferrari+Maranello/@44.5297482,10.8589252,737m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4781e629e2ffffff:0x78dd8a4915609a5b!8m2!3d44.5297444!4d10.8615001!16s%2Fm%2F027htmg?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration: none; color: inherit;"><h3 class="div_headings">| Museo Ferrari Maranello |</a></h3></li>
+        </ul>
+        <div class="flex-container">
+            <div class="flex-item"><img src="../9.1 Flex Direction/photos/1.jpg" alt=""></div>
+            <div class="flex-item"><img src="../9.1 Flex Direction/photos/2.jpg" alt=""></div>
+            <div class="flex-item"><img src="../9.1 Flex Direction/photos/3.jpg" alt=""></div>
+            <div class="flex-item"><img src="../9.1 Flex Direction/photos/4.jpg" alt=""></div>
+            <div class="flex-item"><img src="../9.1 Flex Direction/photos/5.jpg" alt=""></div>
+            <div class="flex-item"><img src="../9.1 Flex Direction/photos/6.jpg" alt=""></div>
+            <div class="flex-item"><img src="../9.1 Flex Direction/photos/7.jpg" alt=""></div>
+            <div class="flex-item"><img src="../9.1 Flex Direction/photos/8.jpg" alt=""></div>
+            <div class="flex-item"><img src="../9.1 Flex Direction/photos/9.jpg" alt=""></div>
+            <div class="flex-item"><img src="../9.1 Flex Direction/photos/10.jpg" alt=""></div>    
+        </div>
+    </div>
+</body>
+</html>
